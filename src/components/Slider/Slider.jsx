@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import leftChevron from "../../assets/left-arrow.svg";
 import rightChevron from "../../assets/right-arrow.svg";
-import "./slider.css";
+import "./Slider.css";
 import sliderData from "../../assets/data/sliderData";
 export default function slider() {
   const [sliderIndex, setSliderIndex] = useState(1);
